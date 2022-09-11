@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai_Investors</title>
+    <style>
+        body{
+            text-align: center;
+            font-size: 25px;
+        }
+        .top{
+            display: grid;
+            grid-template-columns: repeat(3,300px);
+            grid-template-rows:200px ;
+            /* border: 1px solid red; */
+            width: 80%;
+            height: 150px;
+            margin: auto;
+
+            padding-top: 50px;
+            gap: 20px;
+            align-content: center;
+            justify-content: center;
+        }
+        #imaget{
+            position: center;
+            height: 120px;
+            width: 300px;
+            /* border: 1px solid red; */
+        }
+        .bottom{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(5, 1fr) ;
+            /* border: 1px solid red; */
+            width:75%;
+            height: 800px;
+            margin: auto;
+            gap: 2%;
+            /* align-content: center;
+            justify-content: center; */
+        }
+        .bottom>div{
+             align-items: center;
+        }
+        .bottom>div>p+p{
+            color: grey;
+            font-size: 10px;
+        }
+        #imageb{
+            height:200px;
+            width:200px;
+        }
+        #imagec{
+            height: 15px;
+            width:100px;
+
+        }
+        @media only screen and (min-width: 500px) and (max-width: 768px) {
+            .top{
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows:repeat(3,1fr);
+            /* border: 1px solid red; */
+            width: 100%;
+            height: auto;
+            margin: auto;
+            gap: 20px;
+            
+        }
+        .bottom{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto ;
+            /* border: 1px solid red; */
+            width:100%;
+            height: auto;
+            gap: 2%;
+        }
+    }
+    @media only screen and (min-width: 50px) and (max-width: 499px) {
+        .top{
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows:repeat(3,1fr);
+            /* border: 1px solid red; */
+            width: 100%;
+            height: auto;
+            margin: auto;
+            gap: 20px;
+            
+        }
+        .bottom{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: auto ;
+            /* border: 1px solid red; */
+            width:100%;
+            height: auto;
+            gap: 2%;
+        }
+
+    }
+
+    </style>
+</head>
+<body>
+    <h2>Board Members</h2>
+    <div class="top">
+        <div>
+            <img id="imaget" src="https://www.masaischool.com/img/our-investors/india-q-borderless.svg" alt="">
+        </div>
+        <div>
+            <img id="imaget" src="https://www.masaischool.com/img/our-investors/unitus-borderless.svg" alt="">
+        </div>
+        <div>
+            <img id="imaget" src="https://www.masaischool.com/img/our-investors/omidyar-borderless.svg" alt="">
+        </div>
+    </div>
+    <h2>Strategic Investors</h2>
+    <div class="bottom">
+        <div>
+            <img id="imageb" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <p>Vijay Shekhar Sharma</p>
+            <p>Founder & CEO</p>
+
+            <img id="imagec" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="">
+        </div>
+        <div>
+            <img id="imageb" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <p>Vijay Shekhar Sharma</p>
+            <p>Founder & CEO</p>
+            <img id="imagec" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="">
+        </div>
+        <div>
+            <img id="imageb" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <p>Vijay Shekhar Sharma</p>
+            <p>Founder & CEO</p>
+            <img id="imagec" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="">
+        </div>
+        <div>
+            <img id="imageb" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <p>Vijay Shekhar Sharma</p>
+            <p>Founder & CEO</p>
+            <img id="imagec" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="">
+        </div>
+        <div>
+            <img id="imageb" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <p>Vijay Shekhar Sharma</p>
+            <p>Founder & CEO</p>
+            <img id="imagec" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="">
+        </div>
+        <div>
+            <img id="imageb" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <p>Vijay Shekhar Sharma</p>
+            <p>Founder & CEO</p>
+            <img id="imagec" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="">
+        </div>
+        <div>
+            <img id="imageb" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <p>Vijay Shekhar Sharma</p>
+            <p>Founder & CEO</p>
+            <img id="imagec" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="">
+        </div>
+        <div>
+            <img id="imageb" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <p>Vijay Shekhar Sharma</p>
+            <p>Founder & CEO</p>
+            <img id="imagec" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="">
+        </div>
+        <div>
+            <img id="imageb" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <p>Vijay Shekhar Sharma</p>
+            <p>Founder & CEO</p>
+            <img id="imagec" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="">
+        </div>
+        <div>
+            <img id="imageb" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <p>Vijay Shekhar Sharma</p>
+            <p>Founder & CEO</p>
+            <img id="imagec" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="">
+        </div>
+        <div>
+            <img id="imageb" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <p>Vijay Shekhar Sharma</p>
+            <p>Founder & CEO</p>
+            <img id="imagec" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="">
+        </div>
+        <div>
+            <img id="imageb" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <p>Vijay Shekhar Sharma</p>
+            <p>Founder & CEO</p>
+            <img id="imagec" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="">
+        </div>
+        <div>
+            <img id="imageb" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <p>Vijay Shekhar Sharma</p>
+            <p>Founder & CEO</p>
+            <img id="imagec" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="">
+        </div>
+        <div>
+            <img id="imageb" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <p>Vijay Shekhar Sharma</p>
+            <p>Founder & CEO</p>
+            <img id="imagec" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="">
+        </div>
+        <div>
+            <img id="imageb" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <p>Vijay Shekhar Sharma</p>
+            <p>Founder & CEO</p>
+            <img id="imagec" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="">
+        </div>
+        <div>
+            <img id="imageb" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <p>Vijay Shekhar Sharma</p>
+            <p>Founder & CEO</p>
+            <img id="imagec" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="">
+        </div>
+        <div>
+            <img id="imageb" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <p>Vijay Shekhar Sharma</p>
+            <p>Founder & CEO</p>
+            <img id="imagec" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="">
+        </div>
+        <div>
+            <img id="imageb" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <p>Vijay Shekhar Sharma</p>
+            <p>Founder & CEO</p>
+            <img id="imagec" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="">
+        </div>
+        <div>
+            <img id="imageb" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <p>Vijay Shekhar Sharma</p>
+            <p>Founder & CEO</p>
+            <img id="imagec" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="">
+        </div>
+
+    </div>
+</body>
+</html>
